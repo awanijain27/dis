@@ -1,0 +1,46 @@
+/* complaints.component.css */
+
+/* Container to structure the page layout */
+.complaints-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  position: relative; /* Make sure the container is positioned relative */
+}
+
+/* Header */
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f8f8;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Style for the main complaints body (center part) */
+.complaints-body {
+  margin-top: 60px; /* Ensure it doesn't overlap with the header */
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+/* Button to add a complaint */
+/* .btn btn-primary float-right {
+  position: fixed;
+  bottom: 0px; 
+  right: 0px; 
+  background-color: red; 
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn btn-primary float-right:hover {
+  background-color: #2c387e; 
+} */

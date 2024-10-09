@@ -1,0 +1,31 @@
+/* side-nav.component.css */
+
+/* Style for the side navigation bar */
+.side-nav {
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 60px; /* To avoid overlapping with the header */
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* Rectangular box for the complaints list */
+  .complaints-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the dropdown */
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  

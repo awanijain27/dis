@@ -1,0 +1,23 @@
+<nav class="navbar">
+    <div class="navbar-left">
+      <img src="assets/logo.png" alt="Home Logo" class="home-logo">
+      <ul>
+        <li><a (click)="navigateTo('')">Events</a></li>
+        <li><a (click)="navigateTo('')">Infrastructure</a></li>
+        <li><a (click)="navigateTo('')">Leaves</a></li>
+        <li><a (click)="navigateTo('complaints')">Complaints</a></li>  
+        
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <div class="dropdown">
+        <button class="dropdown-btn">Profile</button>
+        <div class="dropdown-content">
+          <a href="#">View Profile</a>
+          <a href="#">Settings</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
